@@ -17,6 +17,7 @@ div{
 		#whole{
 			animation-name: rainbow1;
 			animation-duration:10s;
+			animation-iteration-count:infinite;
 		}
 		@keyframes rainbow1{
 			0%{
@@ -32,6 +33,7 @@ div{
 		#rect{
 			animation-name:rainbow;
 			animation-duration: 10s;
+			animation-iteration-count:infinite;
 		}
 		@keyframes rainbow{
 			0%{
