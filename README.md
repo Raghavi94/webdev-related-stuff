@@ -1,2 +1,2 @@
 # webdev-simple-proj
-Simple animation using CSS
+Animation done using css
