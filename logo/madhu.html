@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Madhu's Webpage</title>
+	<style>
+		body{
+			font-family: Arial,Helvetica,sans-serif;
+			margin: 0;
+		}
+		html{
+			box-sizing: border-box;
+		}
+		*,*:before,*:after{
+			box-sizing: inherit;
+		}
+		.column{
+			float:left;
+			width:33.33%;
+			margin-bottom: 16px;
+			padding: 0 8px;
+
+		}
+		.card{
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			margin: 20px;
+			margin-left: 10px;
+			background-color: rgb(204,255,255);
+
+		}
+		.container{
+			padding: 0 16px;
+
+		}
+		.container::after,.row::after{
+			content:"";
+			clear: both;
+			display: table;
+
+		}
+		
+		.title{
+			color:red;
+		}
+		.row{
+			margin-left:450px;
+			width:100%;
+			height:130%;
+		}
+		h1{
+			border-bottom: 5px solid black;
+			margin-left:50px;
+			margin-right: 50px;
+			text-align:center;
+			color:purple;
+		}
+		.circular{
+			position:relative;
+			border-radius: 50%;
+			height:200px;
+			width:200px;
+			align-content: center;
+		}
+		.animate__animated animate__flash{
+			animation-iteration-count: infinite;
+		}
+
+	</style>
+			  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+</head>
+<body>
+	<h1 class="animate__animated animate__flash">MY WEBPAGE</h1>
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img class="circular" src="madhu.jpg" alt="madhu">
+				<div class="container">
+					<h2>MADHUMITHA.S</h2>
+					<p class="title">An Undergraduate</p>
+					<p>I am currently pursuing my Bachelors of Engineering(B.E),ECE at Sri Venkateswara College of Engineering</p>
+					<p>Contact:<a href="https://www.gmail.com/mail/help/intl/en/about.html?utm_expid=...">madhusrini26@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>				
+
+</body>
+</html>
