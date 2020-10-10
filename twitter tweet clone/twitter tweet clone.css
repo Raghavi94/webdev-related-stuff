@@ -20,8 +20,8 @@ body{
   }
   header .profile-name {
    display:flex;
-  
-    margin-left: 10px;
+   flex-direction:column;
+   margin-left: 10px;
   }
   header .follow-btn {
     display:flex;
