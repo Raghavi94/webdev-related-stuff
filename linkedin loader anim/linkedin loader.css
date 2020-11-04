@@ -1,0 +1,37 @@
+img{
+			width:150px;
+			height:150px;
+           }
+         .centered {
+         	margin-left: auto;
+         	margin-right: auto;
+         	display: block;
+         	margin-top: 50px;
+         	margin-bottom: 50px;
+
+         } 
+         div{
+         	width:400px;
+         	height:9px;
+         	background:#0072b1;
+         	color:red;
+         	position:relative;
+         	margin-left: auto;
+         	margin-right: auto;
+         	display: block;
+         	border-radius:3px;
+         	animation: myfirst 3s infinite;
+         	animation-direction: alternate;
+         } 
+         @keyframes myfirst {
+         	0%{
+         		background:#0072b1;left:0px;
+         	}
+         	50%{
+         		background:#0072b1;left:45px;
+         	}
+         	100%{
+         		background:#0072b1;left:0px;
+         	}
+
+         }
