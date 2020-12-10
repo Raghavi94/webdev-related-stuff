@@ -37,30 +37,30 @@ function play(question,answer){
 
 //array of objects
 var questions=[{
-    question:chalk.yellowBright("How many times has MS Dhoni remained not-out in a successful chase in One Day Internationals? ")+chalk.magentaBright("41/47/43/48"),
+    question:chalk.yellowBright("Q1.How many times has MS Dhoni remained not-out in a successful chase in One Day Internationals? ")+chalk.magentaBright("(41/47/43/48)"),
     answer:'47'
   },{
-    question:chalk.yellowBright("How many matches has Dhoni lost as captain in the ODI World Cup? ")+chalk.magentaBright("4/5/2/3"),
+    question:chalk.yellowBright("Q2.How many matches has Dhoni lost as captain in the ODI World Cup? ")+chalk.magentaBright("(4/5/2/3)"),
     answer:"2"
   },{
-    question:chalk.yellowBright("How many runs has Dhoni scored in all the IPL 20th overs he has played? ")+chalk.magentaBright("564/596/514/498"),
+    question:chalk.yellowBright("Q3.How many runs has Dhoni scored in all the IPL 20th overs he has played? ")+chalk.magentaBright("(564/596/514/498)"),
     answer:"564"
   },{
-    question:chalk.yellowBright("Which railway zone did Dhoni work for, as a TTE? ")+chalk.magentaBright("Central Indian Railways/Eastern Indian Railways/Western Indian Railways/South Eastern Railways"),
+    question:chalk.yellowBright("Q4.Which railway zone did Dhoni work for, as a TTE? ")+chalk.magentaBright("(Central Indian Railways/Eastern Indian Railways/Western Indian Railways/South Eastern Railways)"),
     answer:"South Eastern Railways"
     
   },{
-    question:chalk.yellowBright("Which team did Dhoni make his Ranji trophy debut for? ")+chalk.magentaBright("Bengal/Chhattisgarh/Railways/Bihar"),
+    question:chalk.yellowBright("Q5.Which team did Dhoni make his Ranji trophy debut for? ")+chalk.magentaBright("(Bengal/Chhattisgarh/Railways/Bihar)"),
     answer:"Bihar"
   },{
-    question:chalk.yellowBright("How many times has Dhoni been a part of the ICC ODI team of the year? ")+chalk.magentaBright("7/8/9/5"),
+    question:chalk.yellowBright("Q6.How many times has Dhoni been a part of the ICC ODI team of the year? ")+chalk.magentaBright("(7/8/9/5)"),
     answer:"8"
   },{
-    question:chalk.yellowBright("How many sixes has Dhoni hit as a captain, in international cricket? ")+chalk.magentaBright("211/221/201/225"),
+    question:chalk.yellowBright("Q7.How many sixes has Dhoni hit as a captain, in international cricket? ")+chalk.magentaBright("(211/221/201/225)"),
     answer:"211"
   }];
 
-  //loop
+  //loops
 for (var i=0; i<questions.length; i++) {
   var currentQuestion = questions[i];
   play(currentQuestion.question, currentQuestion.answer)
