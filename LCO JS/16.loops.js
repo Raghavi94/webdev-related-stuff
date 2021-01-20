@@ -31,3 +31,20 @@ do{
     console.log(j);
     j++;
 }while(j<10);//here even if the condition is false.. loop is executed one time..because in hierarchy do executes first and then while.
+
+//For of =>for arrays
+const arr=["Rags","Bhuvi","Vasu"];
+for(const n of arr){
+    console.log(n);
+}
+
+//For in =>for objects
+
+const obj={
+    yt:"YouTube",
+    fb:"FaceBook",
+    ig:"Instagram"
+};
+for(const n in obj){
+    console.log(`Key is: ${n} and value is: ${obj[n]}`);
+}
