@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year GUI</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align:center;
+            background-color: lightpink;
+        }
+        #ip{
+            width:50%;
+            height:5vh;
+            padding: 5px;
+            margin:15px;
+            border: 1px solid blue;
+        }
+        #bt{
+            border-radius:10%;
+            width:15%;
+            height:30px;
+            padding:5px;
+            border : 1px solid blue;
+            margin:15px;
+        }
+        #bt:hover{
+            color:white;
+            background-color:blue;
+        }
+       /* #op{
+            width:50%;
+            height:5vh;
+            padding: 5px;
+            margin:15px;
+            border: 1px solid blue;
+            background-color:white;
+            text-align:center;
+        }*/
+        footer{
+            position:absolute;
+            bottom:0;
+            height:50px;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="year">Enter your born year below
+        👇  </h1>
+    <input id="ip" placeholder="Year should be in number"></input> <br>   
+    <button id="bt" onclick="findLeapYr()">Find it!</button><br>
+   <!--- <div id="op"></div>-->
+
+    
+    <script src="script.js"></script>
+    <footer>
+        <p>Bonus exercise of neog camp's exercise 4</p>
+    </footer>
+    
+</body>
+</html>
+
